@@ -1,4 +1,7 @@
-
+html{
+	position:relative;
+	min-height:100%;
+}
 body{
 	background-color:gray;
 	background-image:url("../images/background.png");
@@ -9,8 +12,18 @@ body{
 
 
 }
+h1{
+	color:#4aaaa5;
+}
+h3{
+	color:#4aaaa5;
+}
+
+
 header{
 	font-family:'Georgia',Times,'Times New Roman',serif;
+	background-color:white;
+	width:100%;
 }
 
 .about{
@@ -19,8 +32,9 @@ header{
 	padding-right:10px;
 	padding-top:20px;
 	margin-top:20px;
+	margin-bottom:100px;
 	background-color:#fff;
-	height:480px;
+	min-height:480px;
 }
 ul{
 	list-style-type:none;
@@ -45,27 +59,38 @@ li a{
 	padding:0 5px 5px 5px;
 }
 #logo{
+	background-color:teal;
+	width:400px;
+	color:white;
+	text-align:center;
+	font-size:40px;
+	display:inline-block;
 	position:absolute;
+	margin-top:1px;
 }
 .connect{
 	width:270px;
 	height:175px;
 	float:right;
-	position:relative;
-	margin;bottom:500px;
 	background-color:#fff;
 	text-align:center;
 	font-size:20px;
+	position:absolute;
+	right:240px;
+	top:70px;
+
+
 
 }
 footer{
 	position:absolute;
-	right:0;
-	bottom:0;
 	left:0;
-	padding:1rem;
+	bottom:0;
+	height:50px;
+	width:100%;
 	text-align:center;
 	background-color:#666666;
+
 }
 
 hr{
@@ -86,3 +111,64 @@ hr{
 	border-style:inset;
 	border-width:2px;
 }
+
+/*contact form*/
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+/* Centre the page */
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:14px;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:75px;
+}
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+#submit {
+	background-color:#4aaaa5;
+    width:127px;
+    height:38px;
+    text-indent:0;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    color:#fff;
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+/*end contact form*/
+
+#port{
+	display:inline-block;
+
+}
+
+
+
