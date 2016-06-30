@@ -76,9 +76,8 @@ li a{
 	text-align:center;
 	font-size:20px;
 	position:absolute;
-	right:240px;
-	top:70px;
-
+	right:0;
+	bottom:535px;
 
 
 }
@@ -169,6 +168,6 @@ input:focus, textarea:focus {
 	display:inline-block;
 
 }
-
-
-
+.box{
+	width:960px;
+}
